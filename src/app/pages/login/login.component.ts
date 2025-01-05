@@ -45,7 +45,7 @@ export class LoginComponent {
           this.successMessage = response.message; 
           this.errorMessage = '';
           this.loginForm.reset(); 
-          this.router.navigate(['/profile']);
+          this.router.navigate(['/home']);
         },
         (error) => {
           this.errorMessage = error.error.message; 

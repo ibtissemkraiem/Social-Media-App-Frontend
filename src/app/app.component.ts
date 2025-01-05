@@ -1,12 +1,13 @@
 import { CommonModule } from '@angular/common';
 import { Component } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
-import { LoginComponent } from './pages/login/login.component';
+
+import { NavbarComponent } from './shared/navbar/navbar.component';
 
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [RouterOutlet,CommonModule,LoginComponent],
+  imports: [RouterOutlet,CommonModule,NavbarComponent],
   templateUrl: './app.component.html',
   styleUrl: './app.component.scss'
 })
@@ -15,5 +16,5 @@ export class AppComponent {
     console.log('Router outlet is loading...');
   }
   title = 'social-media-frontend';
-  isLoggedIn = false;
+
 }

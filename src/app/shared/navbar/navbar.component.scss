@@ -1,0 +1,58 @@
+.classy-navbar {
+    background-color: #f8f9fa; // Subtle light background
+    padding: 0.8rem 2rem;
+  
+    .navbar-brand {
+      font-size: 1.5rem;
+      font-weight: 700;
+      color: #333;
+      text-transform: uppercase;
+      letter-spacing: 2px;
+  
+      &:hover {
+        color: #007bff; // Highlight on hover
+      }
+    }
+  
+    .nav-link {
+      font-size: 1rem;
+      color: #555;
+      margin: 0 0.8rem;
+      transition: color 0.3s ease;
+  
+      &:hover {
+        color: #007bff; // Transition on hover
+      }
+    }
+  
+    .nav-btn {
+      background-color: #007bff;
+      border-radius: 30px;
+      font-size: 1rem;
+      padding: 0.4rem 1rem;
+      border: none;
+      transition: all 0.3s;
+  
+      &:hover {
+        background-color: #0056b3;
+      }
+    }
+  }
+  
+  // Shadow for Elevation
+  .shadow {
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  // Responsive Adjustments
+  @media (max-width: 768px) {
+    .nav-link {
+      margin: 0.5rem 0;
+      text-align: center;
+    }
+  
+    .navbar-nav {
+      flex-direction: column;
+    }
+  }
+  
