@@ -28,10 +28,9 @@ Interface utilisateur de l'application Mini Réseau Social développée avec Ang
 
    ```bash
 
-   git clone [URL du dépôt frontend]
+   git clone https://github.com/ibtissemkraiem/Social-Media-App-Frontend.git
 
-   cd [nom_du_dossier]
-
+   cd social-Media-App-Frontend
 
 
 2. Installez les dépendances :
@@ -66,11 +65,4 @@ Fonctionnalités
 
 • Commenter des posts
 
-
-
-Contact
-
-• Email : [Votre adresse email]
-
-• GitHub : [Votre profil GitHub]
 
