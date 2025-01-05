@@ -1,0 +1,46 @@
+.card-body {
+    background-color: #f8f9fa;
+  }
+  
+  .card-title {
+    font-size: 1.25rem;
+    font-weight: bold;
+    color: #343a40;
+  }
+  
+  .card-text {
+    color: #495057;
+  }
+  
+  .input-group {
+    margin-top: 1rem;
+  }
+  
+  .btn {
+    transition: all 0.3s ease;
+  }
+  
+  .btn-primary:hover {
+    background-color: #0069d9;
+    border-color: #0062cc;
+  }
+  
+  .btn-outline-info {
+    color: #5bc0de;
+    border-color: #5bc0de;
+  }
+  
+  .list-group-item {
+    background-color: #f1f1f1;
+    border: none;
+    border-radius: 5px;
+  }
+  
+  .list-group-item-action:hover {
+    background-color: #e2e6ea;
+  }
+  
+  .text-muted {
+    font-size: 0.875rem;
+  }
+  
