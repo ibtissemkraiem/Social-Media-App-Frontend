@@ -1,0 +1,65 @@
+.register-container {
+    background: linear-gradient(135deg, #f8f9fa, #e9ecef);
+  }
+  
+  
+  .register-card {
+    width: 100%;
+    max-width: 420px;
+    background: #ffffff;
+    border-radius: 15px;
+    overflow: hidden;
+  
+    .card-header {
+      border-bottom: none;
+    }
+  
+    h3 {
+      font-size: 1.8rem;
+      color: #343a40;
+    }
+  
+    p {
+      font-size: 0.9rem;
+    }
+  
+    .text-muted {
+      font-weight: 300;
+    }
+  }
+  
+ 
+  .btn-primary {
+    background: #007bff;
+    border: none;
+  
+    &:hover {
+      background: #0056b3;
+    }
+  }
+  
+  .form-control {
+    padding: 0.75rem 1.25rem;
+    font-size: 0.95rem;
+    border: 1px solid #dee2e6;
+  
+    &::placeholder {
+      font-size: 0.85rem;
+      font-weight: 300;
+      color: #adb5bd;
+    }
+  }
+  
+  .alert {
+    font-size: 0.85rem;
+  }
+  
+  
+  .card-footer a {
+    text-decoration: none;
+  
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+  
