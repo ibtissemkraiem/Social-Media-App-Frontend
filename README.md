@@ -49,11 +49,11 @@ npm install
 
 
 
-node server.js
+ng serve
 
 
 
-L’application sera disponible sur : http://localhost:5000.
+L’application sera disponible sur : http://localhost:4200.
 
 
 
