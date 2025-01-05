@@ -45,7 +45,7 @@ npm install
 
 
 
-4. Lancez l’application :
+3. Lancez l’application :
 
 
 
